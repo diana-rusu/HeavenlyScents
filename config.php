@@ -1,0 +1,13 @@
+<?php
+      if(!defined('dbhost'))     
+        define('db_host','db1.xhost.ro');
+    if(!defined('db_user'))     
+        define('db_user','heavenly_xhost01');
+    if(!defined('db_password'))     
+        define('db_password','0LS0NA');   
+    if(!defined('db_name'))     
+        define('db_name','heavenly_xhost_ro01');     
+    if(!defined('site_name'))     
+        define('site_name','heavenly.xhost.ro');    
+   session_start();
+?>
